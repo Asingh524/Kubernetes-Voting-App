@@ -1,14 +1,9 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+A front-end web app in Python or ASP.NET Core which lets you vote between two options
 
+A Redis or NATS queue which collects new votes
 
-Hi there! Welcome to AWS Cloud9!
+A .NET Core, Java or .NET Core 2.1 worker which consumes votes and stores them in…
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+A Postgres or TiDB database backed by a Docker volume
 
-Happy coding!
+A Node.js or ASP.NET Core SignalR webapp which shows the results of the voting in real time
